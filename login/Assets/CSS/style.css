@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "segoe ui", roboto, oxygen, ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial, sans-serif;
+    font-size: 16px;
+}
+body {
+    background-color: #435165;
+    background-image: url("../IMG/AnonBuntu.png");
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    /*backdrop-filter: blur( width 20px, height 20px);*/
+}
+.login {
+    width: 400px;
+    background-color: #333333;
+    box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+    margin: 100px auto;
+    border-radius: 12px;
+}
+/*Login Text*/
+.login h1 {
+    text-align: center;
+    color: #9b48a7;
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px 0 20px 0;
+    border-bottom: 1px solid #dee0e4;
+}
+.login form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+    color: #333333;
+    background-color: #333333;
+}
+.login form label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #64216d;
+    color: #ffffff;
+}
+.login form input[type="password"], .login form input[type="text"] {
+    width: 310px;
+    height: 50px;
+    border: 1px solid #4e4e4e;
+    margin-bottom: 20px;
+    padding: 0 15px;
+}
+.login form input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    margin-top: 30px;
+    background-color: #64216d;
+    border: 0;
+    cursor: pointer;
+    font-weight: bold;
+    color: #ffffff;
+    transition: background-color 0.2s;
+    
+    
+}
+.login form input[type="submit"]:hover {
+  background-color: #64216d;
+    transition: background-color 0.2s;
+}
+
+input {
+    outline: none;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    color: #dee0e4;
+    box-shadow: inset 0 -5px 45px rgba(100, 100, 100, 0.2),
+    0 1px 1px rgba(12, 12, 12, 0.2);
+    background-color: #333333;
+}
+input:focus {
+    box-shadow: inset 0 -5px 45px rgba(100, 100, 100, 0.4),
+      0 1px 1px rgba(255, 255, 255, 0.2);
+  }
+
+.LandPage {
+    margin: auto;
+    margin-top: 180px;
+    padding: 0 80px;
+    position: relative;
+    max-width: 600px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: #1f1d2b71;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    
+}

@@ -1,0 +1,98 @@
+html {
+	background-color: black;
+	align-content: center;
+}
+
+body{
+	height: 100%;
+}
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	opacity: 0.8;
+	position: relative;
+	top:-200px;
+}
+
+.button {
+	background-color: black;
+	border: none;
+	color: white;
+	display: inline-block;
+	font-size: 16px;
+	padding: 14px 200px;
+	text-align: center;
+	align-self: center;
+	border: 3px solid #ac40c2;
+	border-radius: 12px;
+	transition-duration: 0.4s;
+
+}
+
+.button2 {
+	background-color: black;
+	border: none;
+	color: white;
+	display: inline-block;
+	font-size: 16px;
+	padding: 14px 200px;
+	text-align: center;
+	align-self: center;
+	border: 3px solid #ac40c2;
+	border-radius: 12px;
+	top: 50px;
+	transition-duration: 0.4s;
+
+}
+
+.button3 {
+	background-color: black;
+	border: none;
+	color: white;
+	display: inline-block;
+	font-size: 16px;
+	padding: 14px 200px;
+	text-align: center;
+	align-self: center;
+	border: 3px solid #ac40c2;
+	border-radius: 12px;
+	top: 50px;
+	transition-duration: 0.4s;
+
+}
+
+.button:hover {
+	background-color: #812e92;
+	color: white;
+}
+
+.loader {
+	margin-top: 100px;
+}
+
+#textstuffs {
+	display: block;
+	text-align: center;
+	margin-top: -100px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	background-repeat: repeat-x;
+	-webkit-background-clip: text;
+    -moz-background-clip: text;
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color:#db76fa;
+	background-size: 400% 400%;
+}
+
+
+.gradient-box{
+	border-image-slice: 1;
+	border-image-source: linear-gradient(45deg,#FF0000,#FF7F00,#FFFF00,#00FF00,#0000FF,#4B0082,#8B00FF);
+	border-style: solid;
+	height: 80vh;
+	padding-top: 190px;
+	-webkit-animation: rainbowanim 10s ease infinite;
+		-moz-animation: rainbowanim 10s ease infinite;
+		 	animation: rainbowanim 10s ease infinite;
+}
