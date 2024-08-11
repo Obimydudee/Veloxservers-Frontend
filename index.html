@@ -1,26 +1,43 @@
 <!DOCTYPE html>
-<meta property="og:title" content="ProxNet"/>
+<meta property="og:title" content="Huh? Where am i, who are you?"/>
 <meta property="og:url" content="http://veloxservers.lol" />
-<meta property="og:image" content="https://veloxservers.lol/Assets/IMG/proxnet.gif" />
+<meta property="og:image" content="https://veloxservers.lol/Assets/IMG/bnuuyIcon.png" />
 <meta property="og:description" content="socials of the creator" />
 <meta name="theme-color" content="#64199e">
 <html>
     <head>
-        <title>root</title>
+        <title>/root</title>
         <link rel="icon" type="image/x-icon" href="Assets/IMG/favicon.ico">
         <link rel="stylesheet" type="text/css" href="Assets/CSS/Style.css">  
     </head>   
     <body>
         <div class="gradient-box">
             <div class="loader" >
-                <img src="Assets/IMG/proxnet.gif" height="420" width="420">
+                <img src="Assets/IMG/bnuuyIcon.png" height="256" width="256">
             </div>
             <div id="textstuffs">
-                <h1>Greetings</h1> 
-                <a href="https://twitter.com/obimydude"><button class="button button1">..My Twitter..</button></a><br><br>
-                <a href="https://github.com/Obimydudee"><button class="button button2">..My Github..</button></a><br><br>
-				<a href="https://bsky.app/profile/veloxservers.lol"><button class="button button3">..Blue Sky..</button></a> 				<!--<h1 id="ipAddress">-->
+                <h1>Hello Friend!</h1> 
+                <a href="https://twitter.com/obimydude"><button id="button1">..My Twitter..</button></a><br><br>
+                <a href="https://github.com/Obimydudee"><button id="button2">..My Github..</button></a><br><br>
+				<a href="https://app.hackthebox.com/users/1539920"><button id="button3">..Hack The Box..</button></a><br><br>
+                <button id="pgpkeybutton">..Public  key..</button></a>
+                <div id="pgpKey" class="hidden">
+                    <button id="backBtn">&#8592; Back</button>
+                    <p>-----BEGIN PGP PUBLIC KEY BLOCK-----<br>
+                        mDMEZqac6RYJKwYBBAHaRw8BAQdAvU/8RbwsiiInFFx+FUqaOd2X/UN92xPHAHoS
+                        1BMY80m0BG9iaTGImQQTFgoAQRYhBB8rVMTBsOC77jfyNoyMS2z849I7BQJmppzp
+                        AhsDBQkFoxQ3BQsJCAcCAiICBhUKCQgLAgQWAgMBAh4HAheAAAoJEIyMS2z849I7
+                        JS8A/iBRgF44vFiNpcRlnEdGhGf9jdWZ/+KmKoNOpfnuzfPOAPwIBz0Jf0r8+gAV
+                        OREOAAGt0uaeqsiVRt4A51Vl+czyA7g4BGamnOkSCisGAQQBl1UBBQEBB0AW6Rsg
+                        +6CrvcVaWts1/+7TIZjnxNwcBfItpUo3EK6wOwMBCAeIfgQYFgoAJhYhBB8rVMTB
+                        sOC77jfyNoyMS2z849I7BQJmppzpAhsMBQkFoxQ3AAoJEIyMS2z849I7exoBAJxO
+                        UFlpeLPDGq7jQp4wX8DewwWnsD6VQKvjh18QvZMLAQDRYEX00Qs8ULSBVAKF9/V4
+                        9+VEKbRJD1uluGNLFiPoBg==
+                        =CLWP<br>
+                    -----END PGP PUBLIC KEY BLOCK-----</p>
+                </div>
             </div>
         </div>    
+        <script src="Assets/JS/pgp.js"></script>
     </body>
 </html>

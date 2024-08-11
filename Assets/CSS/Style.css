@@ -1,21 +1,26 @@
 html {
-	background-color: black;
+	background-image: url("../IMG/velback.png");
 	align-content: center;
 }
 
 body{
 	height: 100%;
+	margin: auto;
+	margin-top: 150px;
+    
 }
 img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	opacity: 0.8;
+	opacity: 1;
 	position: relative;
-	top:-200px;
+	top:-150px;
 }
 
-.button {
+#button1,
+#button2,
+#pgpkeybutton {
 	background-color: black;
 	border: none;
 	color: white;
@@ -24,47 +29,58 @@ img {
 	padding: 14px 200px;
 	text-align: center;
 	align-self: center;
-	border: 3px solid #ac40c2;
+	border: 2px solid #a200ff;
 	border-radius: 12px;
 	transition-duration: 0.4s;
+	transition: opacity 0.5s ease;
 
 }
 
-.button2 {
+#button3 {
 	background-color: black;
 	border: none;
 	color: white;
 	display: inline-block;
 	font-size: 16px;
-	padding: 14px 200px;
+	padding: 14px 185px;
 	text-align: center;
 	align-self: center;
-	border: 3px solid #ac40c2;
+	border: 2px solid #a200ff;
+	border-radius: 12px;
+	transition-duration: 0.4s;
+	transition: opacity 0.5s ease;
+
+}
+
+
+
+button {
+	background-color: black;
+	border: none;
+	color: white;
+	display: inline-block;
+	font-size: 16px;
+	padding: 7px 50px;
+	text-align: center;
+	align-self: center;
+	border: 3px solid #a200ff;
 	border-radius: 12px;
 	top: 50px;
-	transition-duration: 0.4s;
-
 }
 
-.button3 {
-	background-color: black;
-	border: none;
-	color: white;
-	display: inline-block;
-	font-size: 16px;
-	padding: 14px 200px;
-	text-align: center;
-	align-self: center;
-	border: 3px solid #ac40c2;
-	border-radius: 12px;
-	top: 50px;
-	transition-duration: 0.4s;
 
+#button1:hover,
+#button2:hover,
+#button3:hover,
+#pgpkeybutton:hover,
+#backBtn:hover {
+	 box-shadow: 0 10px 20px rgba(97, 21, 196, 0.822), 0 6px 6px rgba(97, 21, 196, 0.822);
 }
 
-.button:hover {
-	background-color: #812e92;
-	color: white;
+
+
+.hidden {
+    display: none;
 }
 
 .loader {
@@ -81,18 +97,42 @@ img {
     -moz-background-clip: text;
 	background-clip: text;
 	-webkit-background-clip: text;
-	-webkit-text-fill-color:#db76fa;
+	-webkit-text-fill-color:#ffffff;
 	background-size: 400% 400%;
+}
+
+#pgpKey {
+	text-size-adjust: 10px;
+    margin-top: -160px;
+    background-color: #1f191977;
+    padding: 10px;
+    border: 1px solid #ddd;
+	border-radius: 20px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	background-repeat: repeat-x;
+	-webkit-background-clip: text;
+    -moz-background-clip: text;
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color:#ffffff;
 }
 
 
 .gradient-box{
-	border-image-slice: 1;
+	margin: 20px auto;
+	padding: 60px;
+    max-width: 700px;
+	max-height: 2000px;
+    background-color: #472b43b4;
+    backdrop-filter: blur(1px);
+	justify-content: center;
+    align-items: center;
+	/* border-image-slice: 1;
 	border-image-source: linear-gradient(45deg,#FF0000,#FF7F00,#FFFF00,#00FF00,#0000FF,#4B0082,#8B00FF);
 	border-style: solid;
 	height: 80vh;
 	padding-top: 190px;
 	-webkit-animation: rainbowanim 10s ease infinite;
 		-moz-animation: rainbowanim 10s ease infinite;
-		 	animation: rainbowanim 10s ease infinite;
+		 	animation: rainbowanim 10s ease infinite; */
 }
