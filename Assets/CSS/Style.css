@@ -33,6 +33,7 @@ img {
 	border-radius: 12px;
 	transition-duration: 0.4s;
 	transition: opacity 0.5s ease;
+	cursor: pointer;
 
 }
 
@@ -49,6 +50,7 @@ img {
 	border-radius: 12px;
 	transition-duration: 0.4s;
 	transition: opacity 0.5s ease;
+	cursor: pointer;
 
 }
 
