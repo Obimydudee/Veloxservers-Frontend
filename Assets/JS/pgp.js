@@ -27,11 +27,7 @@ function pgpbtnclick() {
 
 function backbtnclick() {
     const pgpKeyDiv = document.getElementById('pgpKey');
-
-    // Hide the PGP key
     pgpKeyDiv.classList.add('hidden');
-
-    // Show all buttons and fade them in
     btn1.style.display = 'inline';
     btn2.style.display = 'inline';
     btn3.style.display = 'inline';
